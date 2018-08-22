@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #A2BCE0;
+}
+
+#header {
+    background-color: #5E5C6C;
+    width: 100%;
+    height: 550px;
+    margin-top: -16px;
+}
+
+hr {
+    border: 0.5px solid white;
+    width: 95%
+}
+
+#name {
+    margin-left: 40px;
+    margin-top: 4%;
+    float: left;
+    font-size: 54px;
+    font-weight: bolder;
+    color: #5299D3;
+    width: fit-content;
+}
+
+#skills-div {
+    float: left;
+}
+
+#skills {
+    font-size: 54px;
+    font-weight: bolder;
+    color: #5299D3;
+}
+
+#info {
+    color: white;
+    margin-left: 40px;
+    width: fit-content;
+    font-weight: bold;
+}
+
+#download {
+    margin-right: 40px;
+    margin-top: 5%;
+    float: right;
+    width: 200px;
+    height: 46px;;
+    font-size: 20px;
+    line-height: 2.2;
+    background-color: #5299D3;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#download:hover {
+    background-color: white;
+    color: #5299D3;
+}
+
+.contact + ul, li {
+    display: inline;
+    margin-left: 2%;
+}
+
+.skill {
+    font-size: 22px;
+    font-weight: bold;
+    color: #5299D3;
+}
+
+.skill:after {
+    content: " ";
+}
+
+.detail {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+#me {
+    float: left;
+    height: auto;
+    width: 200px;
+    margin: 40px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.list {
+    width: 75%;
+    margin: -40px;
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    border-spacing: 15px;
+}
+
+td {
+    text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+.work-title, .project-title {
+    padding: 1% 0;
+    font-size: 42px;
+    font-weight: bold;
+    color: #5E5C6C;
+}
+
+.work-entry {
+    font-size: 26px;
+    color: maroon;
+}
+
+.work-time {
+    font-size: 18px;
+    font-style: italic;
+    color: #5E5C6C;
+    float: left;
+}
+
+.work-location {
+    font-size: 18px;
+    font-style: italic;
+    color: #5E5C6C;
+    float: right;
+    margin-right: 40px;
+}
+
+.work-detail {
+    text-indent: 0;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.work-link {
+    padding: 1% 0;
+    font-size: 18px;
+}
+
+#wwe-link {
+    color: blue;
+}
+
+#work-experience {
+    background-color: #f3f3f3;
+    text-indent: 40px;
+}
+
+.wwe-pic {
+    height: 180px;
+    width: 270px;
+}
+
+#project {
+    background-color: white;
+    text-indent: 40px;
+}
