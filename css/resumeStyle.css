@@ -120,7 +120,7 @@ a:link, a:visited, a:hover, a:active {
     color: #5E5C6C;
 }
 
-.work-entry {
+.work-entry, .project-entry {
     font-size: 26px;
     color: maroon;
 }
@@ -170,4 +170,17 @@ a:link, a:visited, a:hover, a:active {
 #project {
     background-color: white;
     text-indent: 40px;
+}
+
+.project-time {
+    font-size: 18px;
+    font-style: italic;
+    color: #5E5C6C;
+}
+
+.project-detail {
+    text-indent: 0;
+    margin: 10px 0 10px 40px;
+    font-size: 18px;
+    line-height: 1.5;
 }
