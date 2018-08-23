@@ -121,6 +121,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .work-entry, .project-entry {
+    margin-top: 50px;
     font-size: 26px;
     color: maroon;
 }
@@ -148,7 +149,7 @@ a:link, a:visited, a:hover, a:active {
     line-height: 1.5;
 }
 
-.work-link {
+.work-link, .project-link {
     padding: 1% 0;
     font-size: 18px;
 }
