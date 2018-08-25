@@ -68,7 +68,11 @@ hr {
 
 .contact + ul, li {
     display: inline;
-    margin-left: 2%;
+    padding-left: 50px;
+}
+
+.contact {
+    text-align: center;
 }
 
 .skill {
@@ -189,4 +193,19 @@ a:link, a:visited, a:hover, a:active {
 .education-degree {
     font-size: 18px;
     padding: 10px 0;
+}
+
+#footer-bar {
+    font-size: 42px;
+    color: rgb(38, 70, 97);
+    text-align: center;
+    background-color: #5299D3;
+    padding: 1% 0;
+    font-weight: bold;
+}
+
+#contact-bar {
+    background-color: #5E5C6C;
+    text-align: center;
+    padding: 1% 0;
 }
